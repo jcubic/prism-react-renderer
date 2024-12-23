@@ -107,6 +107,12 @@ const theme: PrismTheme = {
       },
     },
     {
+      types: ["regex", "important"],
+      style: {
+	    color: "#fd971f",
+      },
+    },
+    {
       types: ["doctype"],
       style: {
         color: "#8292a2",
